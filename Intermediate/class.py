@@ -29,7 +29,6 @@ def user_input():
     except KeyboardInterrupt:
         print("Quitting: User Input!")
         quit()
-        # return "exit"
 
 
 def user_commands():
