@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "name": "Admin",
+            "description": null
+        },
+        {
+            "name": "Default",
+            "description": null
+        }
+    ]
+}
