@@ -1,4 +1,4 @@
-### INTERMEDIATE JSON DATA MANAGEMENT ###
+### INTERMEDIATE JSON DATA MANAGEMENT (READ/WRITE/MODIFY/APPEND NESTED JSON DATA) ###
 
 import json # Default python library for parsing json files
 path = "json/data.json" # Path to data.json file
@@ -35,4 +35,4 @@ modify_data(read_data(), user_id=1, field="description", data="Default User Acco
 
 append_data(read_data(), user_id=1, key="balance", data=5) # Example of data addition for a key and value pair
 
-create_data(read_data()) # Example of data creation with a base key and value pair (Using default function values)
+create_data(read_data()) # Example of data creation with a base key and value pair (Using default values defined in the function)
