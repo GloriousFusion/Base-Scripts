@@ -6,6 +6,7 @@ pizza_list = ["margarita", "pepperoni", "chicken bbq", "pineapple"]
 
 while True:
     print("Type 'roll' to get a random pizza of random quantity")
+
     try:
         user_input = input("> ")
     except KeyboardInterrupt:
